@@ -100,10 +100,10 @@ PRODUCT_PACKAGES += \
 # GPU
 PRODUCT_PACKAGES += \
     copybit.qsd8k \
-    gralloc.qsd8k \
+#    gralloc.qsd8k \
     hwcomposer.default \
     hwcomposer.qsd8k \
-    libgenlock \
+#    libgenlock \
     libmemalloc \
     liboverlay \
     libtilerenderer \
@@ -144,6 +144,7 @@ PRODUCT_COPY_FILES += \
         device/htc/bravo/prebuilt/libfrsdk.so:system/lib/libfrsdk.so \
         device/htc/bravo/prebuilt/libhtc_ril_wrapper.so:system/lib/libhtc_ril_wrapper.so \
         device/htc/bravo/prebuilt/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+        device/htc/bravo/prebuilt/gralloc.qsd8k.so:system/lib/hw/gralloc.qsd8k.so \
         device/htc/bravo/prebuilt/libOmxCore.so:system/lib/libOmxCore.so \
         device/htc/bravo/prebuilt/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
         device/htc/bravo/prebuilt/libpicowrapper.so:system/lib/libpicowrapper.so \
